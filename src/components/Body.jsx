@@ -1,6 +1,6 @@
 import React from 'react';
 import Client from './Client';
-import Footer from './Footer';
+import { Data, Data2 } from './Data';
 import Team from './Team';
 import Text from './Text';
 
@@ -18,16 +18,18 @@ function Body() {
             </span>
         </Text>
         <span className='text-white tracking-wider text-2xl my-4 py-12  leading-10'>Full range of services:</span>
+        <Data />
         <Text heading="How we work">
             <span>
                 We implement projects end-to-end or augment your existing team, including any full-stack and devops work that may be needed.
             </span>
         </Text>
+        <Data2 />
         <Client />
         <Team />
         <Text heading="Careers">
             <span>
-              For careers please see Careers
+              For careers please see <a className='text-[#46B6F5] border-b-2 border-[#46B6F5]'>Careers</a>
             </span>
         </Text>
     </div>

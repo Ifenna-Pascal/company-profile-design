@@ -14,7 +14,7 @@ const Member = ({name, image, role}) => (
 function Team() {
   return (
     <div className='my-8'>
-          <h1 className='text-[#B5E853] text-3xl tracking-wider mb-6 font-semibold'>Team</h1>
+          <h1 className='text-[#B5E853] text-3xl tracking-wider mb-6  font-semibold'>Team</h1>
      <div className='grid  grid-cols-1 md:grid-cols-2 space-x-3 space-y-12'>
          {
              Members.map(member => (
