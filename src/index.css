@@ -1,13 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Catamaran:wght@100&family=Fuzzy+Bubbles&family=Inter:wght@600&family=Lato:ital,wght@1,300&family=Montserrat:wght@500&family=PT+Sans&family=Poppins:wght@100;300&family=Praise&family=Raleway:wght@100;400&family=Roboto+Slab:wght@100;200&family=Space+Mono:ital@1&display=swap')
