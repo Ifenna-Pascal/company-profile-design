@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Client from './Client';
 import { Data, Data2 } from './Data';
 import Team from './Team';
@@ -28,9 +29,9 @@ function Body() {
         <Client />
         <Team />
         <Text heading="Careers">
-            <span>
+            <Link to='/careers '>
               For careers please see <a className='text-[#46B6F5] border-b-2 border-[#46B6F5]'>Careers</a>
-            </span>
+            </Link>
         </Text>
     </div>
   )
