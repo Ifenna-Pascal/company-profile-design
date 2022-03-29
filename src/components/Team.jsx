@@ -17,8 +17,8 @@ function Team() {
           <h1 className='text-[#B5E853] text-3xl tracking-wider mb-6  font-semibold'>Team</h1>
      <div className='grid  grid-cols-1 md:grid-cols-2 space-x-3'>
          {
-             Members.map(member => (
-                <Member name={member.name} image={member.image} role={member.role} />
+             Members.map((member, i) => (
+                <Member key={i} name={member.name} image={member.image} role={member.role} />
              ))
          }
      </div>
