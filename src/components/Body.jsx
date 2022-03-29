@@ -6,7 +6,7 @@ import Text from './Text';
 
 function Body() {
   return (
-    <div className='bg-[#1A1A1A] py-8 max-w-[66%] mx-auto'>
+    <div className='bg-[#1A1A1A] py-8 max-w-[93%]  lg:max-w-[66%] mx-auto'>
         <Text heading="MLabs">
             <span>
               We are a Haskell, Rust, Blockchain and AI consultancy.
