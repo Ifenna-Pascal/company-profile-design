@@ -1,13 +1,15 @@
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import Nav from "./components/Nav";
+import Career from "./pages/Career";
+import Home from "./pages/Home";
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="bg-[#1A1A1A] "> 
-        <Nav />
-        <Body />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} /> 
+          <Route path="/careers" element={<Career />} />
+          <Route path="**" element={<div>Not found</div>} />
+        </Routes>          
     </div>
   );
 }
